@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-size: 50px;
+  color: white;
+  font-family: Roboton;
+}
+.heading {
+  font-size: 30px;
+  font-family: roboto;
+  color: white;
+}
+.image {
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.acclerate-btn {
+  background-color: #0b69ff;
+  height: 35px;
+  width: 120px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.break-btn {
+  background-color: transparent;
+  height: 35px;
+  width: 120px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 30px;
+    color: white;
+    font-family: Roboton;
+  }
+  .heading {
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+  }
+  .image {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .acclerate-btn {
+    background-color: #0b69ff;
+    height: 20px;
+    width: 80px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .break-btn {
+    background-color: transparent;
+    height: 20px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+  }
+}
